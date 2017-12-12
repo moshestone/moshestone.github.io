@@ -1,0 +1,294 @@
+body {
+  font-family: Calibri;
+  margin: auto;
+}
+/*navbar*/
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  /*background-color:  #555;*/
+  /*color: black;*/
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  /*color: black;*/
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/*.active {
+  background-color: #717171;
+}*/
+
+/*ADDED FOR THE NAVBAR*/
+a.home-img {
+  padding: 0;
+}
+
+a.home-img>img{
+  width: 100px;
+  height: 45px;
+  transform: translateY(8%);
+}
+
+.topnav a:hover{
+  color: none;
+}
+/* END */
+/*navbar*/
+
+/*footer*/
+footer {
+  background-color: grey;
+  width: 100%;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  margin: auto;
+}
+
+.footerColumn1, .footerColumn2 {
+  padding: 10px;
+}
+
+.footerColumn1 {
+  width: 45%;
+  float: left;
+  text-align: center;
+}
+
+.footerColumn2 {
+  width: 35%;
+  float: right;
+  /*text-align: center;*/
+}
+
+#contactHeader {
+  margin-left: 7%;
+}
+
+#ireland {
+  padding-left: 100px;
+}
+.copyright {
+  text-align: center;
+  /*width: 100%;*/
+}
+/*end of footer*/
+
+.links {
+  text-decoration: none;
+}
+
+.links:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/*.rowApply2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnApply1, .columnApply2 {
+  float: left;
+  padding: 10px;
+}
+
+.column1 {
+  width: 40%;
+  /*margin-left: 5%;*/
+/*}
+
+.column2 {
+  width: 40%;
+  float: right;
+  /*margin-right: 5%;*/
+/*}*/
+
+.aboutJs {
+  text-align: center;
+}
+
+
+
+
+.column1, .column2 {
+  float: left;
+  padding: 10px;
+}
+
+.column1 {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.column2 {
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 600px) {
+  .column1, .column2 {
+     width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .topnav {
+    display: grid !important;
+  }
+}
+
+
+/*Carousel*/
+* {
+  box-sizing: border-box;
+}
+
+
+
+.mySlides{
+  display: none;
+}
+
+.slideshow-container{
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.1}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.1}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*end of carousel*/
+
+/*zoom buttons*/
+
+#intro{
+ font-size: 15pt;
+ transition: font 0.5s ease-out;
+}
+
+#container{
+ border-radius: 8px;
+ padding: 15px;
+}
+
+.btnBig, .btnSmall{
+ background-color: CornflowerBlue;
+ border-radius: 500px;
+ border: none;
+ color: #fff;
+ /*padding: 15px 32px;*/
+ /*text-align: center;*/
+ text-decoration: none;
+ display: inline-block;
+ /*font-size: 15px;*/
+ /*margin: 4px 2px;*/
+ cursor: pointer;
+ width: 50px;
+ height: 50px;
+}
+
+.btnBig:hover, .btnSmall:hover {
+ background-color: black;
+ color: #fff;
+}
+
+/*end of zoom*/
+
+
+#first {
+  text-align: center;
+}
+
+#firstDiv {
+  margin: 0% 5% 0% 5%;
+}
+
+.column1, .column2 {
+  float: left;
+  padding: 10px;
+}
+
+.column1 {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.column2 {
+  width: 40%;
+  float: right;
+  margin-right: 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 600px) {
+  .column1, .column2 {
+     width: 100%;
+  }
+}
+/*form*/
+form {
+  background: white;
+  padding: 5px 10px 20px 20px;
+}
+
+fieldset {
+  border-color: black;
+}
+/*end of form*/

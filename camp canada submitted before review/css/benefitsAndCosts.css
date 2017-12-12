@@ -1,0 +1,46 @@
+/*table*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+table {
+margin-left: 10%;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+/*th, td {
+  height: 100px;
+  width: 10%;
+  text-align: center;
+}*/
+
+    /*{
+padding: 5% 10% 5% 10%;
+}*/
+
+/*.emptyRowE {
+padding: 10000px;
+}*/
+
+/*end of table*/
+
+.textCenter, .textCenterP {
+  text-align: center;
+}
+
+.textCenterP {
+  margin: 0% 5% 0% 5%;
+}
+
+ul {
+  display: table; margin: 0 auto;
+ }
+
+h1 {
+  margin-left: 3%;
+}
